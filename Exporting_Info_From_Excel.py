@@ -1,6 +1,6 @@
 import openpyxl
 
-book = openpyxl.load_workbook('Time_Table_2.xlsx')    # Accessing the required excel file
+book = openpyxl.load_workbook('Time_Table.xlsx')    # Accessing the required excel file
 
 o2 = book.get_sheet_by_name("Table 68")    # Opening the required sheet from the excel file
 
